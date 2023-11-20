@@ -8,8 +8,8 @@ async def f_index():
 
 @app.get('/tools')
 async def f_indexT():
-    return {"message": "Hello", "hello": "asd"}
+    return {"Skills": "Базовые навыки работы с языками программирования C# и Python"}
 
 @app.get('/users')
-async def f_index():
-    return {"message": "Hello"}
+async def f_indexU():
+    return {"Phone": "89006005533"}
